@@ -1,0 +1,5 @@
+2025-03-23 17:52:37,077 - caika.embeddings - INFO - Initializing embeddings with model paraphrase-multilingual-MiniLM-L12-v2 on device mps
+2025-03-23 17:52:37,120 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-03-23 17:52:44,199 - caika - INFO - Loading existing vector store...
+2025-03-23 17:52:44,200 - caika.embeddings - INFO - Loading vector store from data/vector_store
+2025-03-23 17:52:44,200 - caika.embeddings - ERROR - Error loading vector store: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.).

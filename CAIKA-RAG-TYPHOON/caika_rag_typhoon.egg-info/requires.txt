@@ -1,0 +1,8 @@
+langchain
+langchain_community
+sentence-transformers
+faiss-cpu
+pypdf
+tiktoken
+llama-cpp-python
+streamlit
