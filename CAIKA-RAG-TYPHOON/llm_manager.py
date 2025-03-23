@@ -11,7 +11,7 @@ class LLMManager:
     def __init__(self, 
                 model_path="models/scb10x_llama3.2-typhoon2-t1-3b-research-preview-gguf_llama3.2-typhoon2-t1-3b-q4_k_m.gguf",  # Path or HF model ID
                 temperature=0.7,
-                max_tokens=1024,
+                max_tokens=2048,
                 top_p=0.95):
         # Expand user path (for ~)
         self.model_path = model_path
@@ -29,7 +29,7 @@ class LLMManager:
                 temperature=temperature,
                 max_tokens=max_tokens,
                 top_p=top_p,
-                n_ctx=1024,  # Reduced context window to save memory
+                n_ctx=2048,  # Reduced context window to save memory
                 n_gpu_layers=-1,  # Use all available GPU layers
                 verbose=False,
                 n_threads=4,  # Adjust based on your M1 CPU cores

@@ -219,3 +219,229 @@ If this is a private repository, make sure to pass a token having permission to 
 2025-03-23 19:11:51,254 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
 2025-03-23 19:11:52,128 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
 2025-03-23 19:12:51,176 - caika.embeddings - INFO - Creating vector store from 546 documents
+2025-03-23 20:14:15,824 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 20:14:20,379 - datasets - INFO - PyTorch version 2.5.1 available.
+2025-03-23 20:14:22,977 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 20:14:23,976 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 20:15:14,192 - caika_web - INFO - Loading existing vector store...
+2025-03-23 20:15:14,195 - caika.embeddings - INFO - Loading vector store from data/vector_store
+2025-03-23 20:15:14,228 - faiss.loader - INFO - Loading faiss.
+2025-03-23 20:15:14,727 - faiss.loader - INFO - Successfully loaded faiss.
+2025-03-23 20:15:14,737 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-23 20:15:14,786 - caika_web - INFO - Initializing LLM with model: models/scb10x_llama3.2-typhoon2-t1-3b-research-preview-gguf_llama3.2-typhoon2-t1-3b-q4_k_m.gguf
+2025-03-23 20:15:22,101 - caika.llm_manager - INFO - LlamaCpp model initialized successfully
+2025-03-23 20:15:22,106 - caika.rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-03-23 20:15:22,214 - caika.rag_pipeline - INFO - QA chain created successfully
+2025-03-23 20:15:22,226 - caika_web - INFO - CAIKA-RAG-Typhoon initialized successfully.
+2025-03-23 20:15:39,938 - caika_web - INFO - Processing query: หากแปลคำว่า "ไต้ฝุ่น" เป็นภาษาอังกฤษ ในคำที่ถูกแปลแล้วจะมีตัวอักษร "o" ทั้งหมดกี่ตัว
+2025-03-23 20:17:01,868 - caika_web - ERROR - Error processing query: 
+2025-03-23 20:22:28,602 - caika_web - INFO - Processing query: What is your name?
+2025-03-23 20:23:56,378 - caika_web - ERROR - Error processing query: 
+2025-03-23 20:24:20,858 - caika_web - INFO - Processing query: What is your model name?
+2025-03-23 20:25:39,291 - caika_web - ERROR - Error processing query: 
+2025-03-23 20:31:22,557 - caika_web - INFO - Processing query: What is your model name?
+2025-03-23 20:32:45,344 - caika_web - ERROR - Error processing query: 
+2025-03-23 20:32:55,132 - caika_web - INFO - Saved 1 uploaded files.
+2025-03-23 20:32:55,393 - caika.document_loader - INFO - Successfully loaded 3 documents from data/documents
+2025-03-23 20:32:55,393 - caika.document_loader - INFO - Split 3 documents into 5 chunks
+2025-03-23 20:32:55,393 - caika_web - INFO - Split 3 documents into 5 chunks.
+2025-03-23 20:32:55,393 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 20:32:55,402 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 20:32:56,135 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 20:34:40,863 - caika.embeddings - INFO - Creating vector store from 5 documents
+2025-03-23 20:37:40,203 - caika.embeddings - INFO - Vector store saved to data/vector_store
+2025-03-23 20:37:41,241 - caika_web - INFO - Document processing completed successfully.
+2025-03-23 20:37:41,365 - caika_web - INFO - Processing query: What is your model name?
+2025-03-23 20:40:03,111 - caika_web - ERROR - Error processing query: 
+2025-03-23 20:41:54,584 - caika_web - INFO - Processing query: What is your developer name?
+2025-03-23 20:43:19,225 - caika_web - ERROR - Error processing query: 
+2025-03-23 20:50:43,734 - caika_web - INFO - Saved 1 uploaded files.
+2025-03-23 20:50:44,472 - caika.document_loader - INFO - Successfully loaded 3 documents from data/documents
+2025-03-23 20:50:44,474 - caika.document_loader - INFO - Split 3 documents into 5 chunks
+2025-03-23 20:50:44,475 - caika_web - INFO - Split 3 documents into 5 chunks.
+2025-03-23 20:50:44,475 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 20:50:44,498 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 20:50:45,408 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 20:52:07,348 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 20:52:11,201 - datasets - INFO - PyTorch version 2.5.1 available.
+2025-03-23 20:52:11,409 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 20:52:11,875 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 20:52:49,950 - caika_web - INFO - Loading existing vector store...
+2025-03-23 20:52:49,954 - caika.embeddings - INFO - Loading vector store from data/vector_store
+2025-03-23 20:52:49,975 - faiss.loader - INFO - Loading faiss.
+2025-03-23 20:52:50,137 - faiss.loader - INFO - Successfully loaded faiss.
+2025-03-23 20:52:50,145 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-23 20:52:50,176 - caika_web - INFO - Initializing LLM with model: models/scb10x_llama3.2-typhoon2-t1-3b-research-preview-gguf_llama3.2-typhoon2-t1-3b-q4_k_m.gguf
+2025-03-23 20:52:54,931 - caika.llm_manager - INFO - LlamaCpp model initialized successfully
+2025-03-23 20:52:54,944 - caika.rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-03-23 20:52:55,021 - caika.rag_pipeline - INFO - QA chain created successfully
+2025-03-23 20:52:55,031 - caika_web - INFO - CAIKA-RAG-Typhoon initialized successfully.
+2025-03-23 20:54:05,047 - caika_web - INFO - Saved 1 uploaded files.
+2025-03-23 20:54:05,205 - caika.document_loader - INFO - Successfully loaded 3 documents from data/documents
+2025-03-23 20:54:05,205 - caika.document_loader - INFO - Split 3 documents into 5 chunks
+2025-03-23 20:54:05,205 - caika_web - INFO - Split 3 documents into 5 chunks.
+2025-03-23 20:54:05,205 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 20:54:05,210 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 20:54:05,564 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 20:54:57,955 - caika.embeddings - INFO - Creating vector store from 5 documents
+2025-03-23 20:56:46,277 - caika.embeddings - INFO - Vector store saved to data/vector_store
+2025-03-23 20:56:46,366 - caika_web - INFO - Document processing completed successfully.
+2025-03-23 21:01:44,210 - caika_web - INFO - Processing query: What is your developer name?
+2025-03-23 21:02:54,474 - caika_web - ERROR - Error processing query: Requested tokens (1084) exceed context window of 1024
+2025-03-23 21:07:32,986 - caika_web - INFO - Processing query: your dev name?
+2025-03-23 21:08:40,721 - caika_web - ERROR - Error processing query: Requested tokens (1145) exceed context window of 1024
+2025-03-23 21:10:49,170 - caika_web - INFO - Processing query: what are your model name?
+2025-03-23 21:12:11,530 - caika_web - ERROR - Error processing query: Requested tokens (1084) exceed context window of 1024
+2025-03-23 21:15:24,922 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 21:15:29,580 - datasets - INFO - PyTorch version 2.5.1 available.
+2025-03-23 21:15:29,814 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 21:15:30,217 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 21:16:11,631 - caika_web - INFO - Loading existing vector store...
+2025-03-23 21:16:11,634 - caika.embeddings - INFO - Loading vector store from data/vector_store
+2025-03-23 21:16:11,653 - faiss.loader - INFO - Loading faiss.
+2025-03-23 21:16:11,929 - faiss.loader - INFO - Successfully loaded faiss.
+2025-03-23 21:16:11,937 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-23 21:16:11,979 - caika_web - INFO - Initializing LLM with model: models/scb10x_llama3.2-typhoon2-t1-3b-research-preview-gguf_llama3.2-typhoon2-t1-3b-q4_k_m.gguf
+2025-03-23 21:16:16,475 - caika.llm_manager - INFO - LlamaCpp model initialized successfully
+2025-03-23 21:16:16,481 - caika.rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-03-23 21:16:16,890 - caika.rag_pipeline - INFO - QA chain created successfully
+2025-03-23 21:16:16,892 - caika_web - INFO - CAIKA-RAG-Typhoon initialized successfully.
+2025-03-23 21:16:26,517 - caika_web - INFO - Saved 1 uploaded files.
+2025-03-23 21:16:26,690 - caika.document_loader - INFO - Successfully loaded 3 documents from data/documents
+2025-03-23 21:16:26,690 - caika.document_loader - INFO - Split 3 documents into 5 chunks
+2025-03-23 21:16:26,690 - caika_web - INFO - Split 3 documents into 5 chunks.
+2025-03-23 21:16:26,690 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 21:16:26,695 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 21:16:27,035 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 21:17:14,325 - caika.embeddings - INFO - Creating vector store from 5 documents
+2025-03-23 21:18:49,580 - caika.embeddings - INFO - Vector store saved to data/vector_store
+2025-03-23 21:18:49,696 - caika_web - INFO - Document processing completed successfully.
+2025-03-23 21:19:23,636 - caika_web - INFO - Processing query: What is your model name?
+2025-03-23 21:22:11,350 - caika_web - INFO - Query processed successfully.
+2025-03-23 21:33:42,882 - caika_web - INFO - Processing query: What is CAIKA system specification?
+2025-03-23 21:36:02,606 - caika_web - INFO - Query processed successfully.
+2025-03-23 21:54:37,454 - caika_web - INFO - Processing query: Summary CAIKA system specification
+2025-03-23 21:56:56,308 - caika_web - INFO - Query processed successfully.
+2025-03-23 22:04:09,685 - caika_web - INFO - Processing query: CAIKA คืออะไร
+2025-03-23 22:06:52,617 - caika_web - INFO - Query processed successfully.
+2025-03-23 22:14:06,191 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 22:14:10,243 - datasets - INFO - PyTorch version 2.5.1 available.
+2025-03-23 22:14:10,469 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 22:14:11,405 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 22:14:52,131 - caika_web - INFO - Loading existing vector store...
+2025-03-23 22:14:52,132 - caika.embeddings - INFO - Loading vector store from data/vector_store
+2025-03-23 22:14:52,160 - faiss.loader - INFO - Loading faiss.
+2025-03-23 22:14:52,347 - faiss.loader - INFO - Successfully loaded faiss.
+2025-03-23 22:14:52,357 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-23 22:14:52,391 - caika_web - INFO - Initializing LLM with model: models/scb10x_llama3.2-typhoon2-t1-3b-research-preview-gguf_llama3.2-typhoon2-t1-3b-q4_k_m.gguf
+2025-03-23 22:14:57,253 - caika.llm_manager - INFO - LlamaCpp model initialized successfully
+2025-03-23 22:14:57,261 - caika.rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-03-23 22:14:57,340 - caika.rag_pipeline - INFO - QA chain created successfully
+2025-03-23 22:14:57,347 - caika_web - INFO - CAIKA-RAG-Typhoon initialized successfully.
+2025-03-23 22:15:09,956 - caika_web - INFO - Processing query: How do I upload and process new documents?
+2025-03-23 22:21:10,033 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 22:21:13,748 - datasets - INFO - PyTorch version 2.5.1 available.
+2025-03-23 22:21:13,952 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 22:21:19,362 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 22:21:59,343 - caika_web - INFO - Loading existing vector store...
+2025-03-23 22:21:59,346 - caika.embeddings - INFO - Loading vector store from data/vector_store
+2025-03-23 22:21:59,373 - faiss.loader - INFO - Loading faiss.
+2025-03-23 22:21:59,605 - faiss.loader - INFO - Successfully loaded faiss.
+2025-03-23 22:21:59,612 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-23 22:21:59,653 - caika_web - INFO - Initializing LLM with model: models/scb10x_llama3.2-typhoon2-t1-3b-research-preview-gguf_llama3.2-typhoon2-t1-3b-q4_k_m.gguf
+2025-03-23 22:22:04,983 - caika.llm_manager - INFO - LlamaCpp model initialized successfully
+2025-03-23 22:22:04,991 - caika.rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-03-23 22:22:05,059 - caika.rag_pipeline - INFO - QA chain created successfully
+2025-03-23 22:22:05,067 - caika_web - INFO - CAIKA-RAG-Typhoon initialized successfully.
+2025-03-23 22:52:36,537 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 22:52:36,554 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 22:52:38,669 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 22:53:24,270 - caika_web - INFO - Loading existing vector store...
+2025-03-23 22:53:24,274 - caika.embeddings - INFO - Loading vector store from data/vector_store
+2025-03-23 22:53:24,341 - caika_web - INFO - Initializing LLM with model: models/scb10x_llama3.2-typhoon2-t1-3b-research-preview-gguf_llama3.2-typhoon2-t1-3b-q4_k_m.gguf
+2025-03-23 22:53:24,944 - caika.llm_manager - INFO - LlamaCpp model initialized successfully
+2025-03-23 22:53:24,946 - caika.rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-03-23 22:53:24,955 - caika.rag_pipeline - INFO - QA chain created successfully
+2025-03-23 22:53:24,955 - caika_web - INFO - CAIKA-RAG-Typhoon initialized successfully.
+2025-03-23 22:58:08,159 - caika_web - INFO - Saved 1 uploaded files.
+2025-03-23 22:58:08,503 - pypdf._reader - WARNING - Ignoring wrong pointing object 11 0 (offset 0)
+2025-03-23 22:58:08,503 - pypdf._reader - WARNING - Ignoring wrong pointing object 13 0 (offset 0)
+2025-03-23 22:58:08,503 - pypdf._reader - WARNING - Ignoring wrong pointing object 15 0 (offset 0)
+2025-03-23 22:58:08,543 - pypdf._reader - WARNING - Ignoring wrong pointing object 11 0 (offset 0)
+2025-03-23 22:58:08,543 - pypdf._reader - WARNING - Ignoring wrong pointing object 13 0 (offset 0)
+2025-03-23 22:58:08,543 - pypdf._reader - WARNING - Ignoring wrong pointing object 15 0 (offset 0)
+2025-03-23 22:58:08,600 - caika.document_loader - INFO - Successfully loaded 15 documents from data/documents
+2025-03-23 22:58:08,601 - caika.document_loader - INFO - Split 15 documents into 35 chunks
+2025-03-23 22:58:08,601 - caika_web - INFO - Split 15 documents into 35 chunks.
+2025-03-23 22:58:08,601 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 22:58:08,610 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 22:58:09,535 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 22:58:57,495 - caika.embeddings - INFO - Creating vector store from 35 documents
+2025-03-23 23:03:51,822 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 23:03:51,996 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 23:03:57,364 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 23:06:04,236 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 23:06:07,919 - datasets - INFO - PyTorch version 2.5.1 available.
+2025-03-23 23:06:08,130 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 23:06:09,091 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 23:06:49,272 - caika_web - INFO - Loading existing vector store...
+2025-03-23 23:06:49,275 - caika.embeddings - INFO - Loading vector store from data/vector_store
+2025-03-23 23:06:49,294 - faiss.loader - INFO - Loading faiss.
+2025-03-23 23:06:49,531 - faiss.loader - INFO - Successfully loaded faiss.
+2025-03-23 23:06:49,550 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-23 23:06:49,580 - caika_web - INFO - Initializing LLM with model: models/scb10x_llama3.2-typhoon2-t1-3b-research-preview-gguf_llama3.2-typhoon2-t1-3b-q4_k_m.gguf
+2025-03-23 23:06:54,495 - caika.llm_manager - INFO - LlamaCpp model initialized successfully
+2025-03-23 23:06:54,506 - caika.rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-03-23 23:06:54,564 - caika.rag_pipeline - INFO - QA chain created successfully
+2025-03-23 23:06:54,566 - caika_web - INFO - CAIKA-RAG-Typhoon initialized successfully.
+2025-03-23 23:08:32,316 - caika_web - INFO - Saved 1 uploaded files.
+2025-03-23 23:08:32,620 - pypdf._reader - WARNING - Ignoring wrong pointing object 11 0 (offset 0)
+2025-03-23 23:08:32,620 - pypdf._reader - WARNING - Ignoring wrong pointing object 13 0 (offset 0)
+2025-03-23 23:08:32,620 - pypdf._reader - WARNING - Ignoring wrong pointing object 15 0 (offset 0)
+2025-03-23 23:08:32,661 - pypdf._reader - WARNING - Ignoring wrong pointing object 11 0 (offset 0)
+2025-03-23 23:08:32,661 - pypdf._reader - WARNING - Ignoring wrong pointing object 13 0 (offset 0)
+2025-03-23 23:08:32,661 - pypdf._reader - WARNING - Ignoring wrong pointing object 15 0 (offset 0)
+2025-03-23 23:08:32,713 - caika.document_loader - INFO - Successfully loaded 15 documents from data/documents
+2025-03-23 23:08:32,714 - caika.document_loader - INFO - Split 15 documents into 35 chunks
+2025-03-23 23:08:32,714 - caika_web - INFO - Split 15 documents into 35 chunks.
+2025-03-23 23:08:32,714 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 23:08:32,720 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 23:08:33,680 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 23:09:18,414 - caika.embeddings - INFO - Creating vector store from 35 documents
+2025-03-23 23:16:43,516 - caika.embeddings - INFO - Vector store saved to data/vector_store
+2025-03-23 23:16:43,773 - caika_web - INFO - Document processing completed successfully.
+2025-03-23 23:23:50,317 - caika_web - INFO - Processing query: CAIKA เหมาะกับใคร
+2025-03-23 23:26:21,698 - caika_web - INFO - Query processed successfully.
+2025-03-23 23:29:37,523 - caika_web - INFO - Processing query: มีข้อดีอะไร
+2025-03-23 23:31:43,778 - caika_web - INFO - Query processed successfully.
+2025-03-23 23:34:43,165 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 23:34:43,183 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 23:34:43,538 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 23:35:23,242 - caika_web - INFO - Loading existing vector store...
+2025-03-23 23:35:23,245 - caika.embeddings - INFO - Loading vector store from data/vector_store
+2025-03-23 23:35:23,273 - caika_web - INFO - Initializing LLM with model: models/scb10x_llama3.2-typhoon2-t1-3b-research-preview-gguf_llama3.2-typhoon2-t1-3b-q4_k_m.gguf
+2025-03-23 23:35:27,659 - caika.llm_manager - INFO - LlamaCpp model initialized successfully
+2025-03-23 23:35:27,674 - caika.rag_pipeline - INFO - RAG Pipeline initialized successfully
+2025-03-23 23:35:27,715 - caika.rag_pipeline - INFO - QA chain created successfully
+2025-03-23 23:35:27,715 - caika_web - INFO - CAIKA-RAG-Typhoon initialized successfully.
+2025-03-23 23:35:37,177 - caika_web - INFO - Saved 1 uploaded files.
+2025-03-23 23:35:37,449 - pypdf._reader - WARNING - Ignoring wrong pointing object 11 0 (offset 0)
+2025-03-23 23:35:37,449 - pypdf._reader - WARNING - Ignoring wrong pointing object 13 0 (offset 0)
+2025-03-23 23:35:37,449 - pypdf._reader - WARNING - Ignoring wrong pointing object 15 0 (offset 0)
+2025-03-23 23:35:37,491 - pypdf._reader - WARNING - Ignoring wrong pointing object 11 0 (offset 0)
+2025-03-23 23:35:37,491 - pypdf._reader - WARNING - Ignoring wrong pointing object 13 0 (offset 0)
+2025-03-23 23:35:37,491 - pypdf._reader - WARNING - Ignoring wrong pointing object 15 0 (offset 0)
+2025-03-23 23:35:37,551 - caika.document_loader - INFO - Successfully loaded 15 documents from data/documents
+2025-03-23 23:35:37,553 - caika.document_loader - INFO - Split 15 documents into 35 chunks
+2025-03-23 23:35:37,553 - caika_web - INFO - Split 15 documents into 35 chunks.
+2025-03-23 23:35:37,553 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 23:35:37,562 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 23:35:39,073 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
+2025-03-23 23:36:40,851 - caika.embeddings - INFO - Creating vector store from 35 documents
+2025-03-23 23:43:40,403 - caika.embeddings - INFO - Vector store saved to data/vector_store
+2025-03-23 23:43:40,617 - caika_web - INFO - Document processing completed successfully.
+2025-03-23 23:46:55,639 - caika_web - INFO - Processing query: รองรับไฟล์อะไรบ้าง
+2025-03-23 23:49:16,158 - caika_web - INFO - Query processed successfully.
+2025-03-23 23:52:28,330 - caika.embeddings - INFO - Initializing embeddings with model scb10x/llama3.2-typhoon2-t1-3b-research-preview on device cpu
+2025-03-23 23:52:28,350 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: scb10x/llama3.2-typhoon2-t1-3b-research-preview
+2025-03-23 23:52:29,784 - sentence_transformers.SentenceTransformer - WARNING - No sentence-transformers model found with name scb10x/llama3.2-typhoon2-t1-3b-research-preview. Creating a new one with mean pooling.
