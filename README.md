@@ -88,9 +88,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-* [Typhoon Models](https://arxiv.org/abs/2412.13702): A family of open text and multimodal Thai large language models.
-* The open-source community for their invaluable contributions to NLP and machine learning.
+*https://opentyphoon.ai/
 
----
-
-Feel free to customize this `README.md` to better fit the specific details and requirements of your project.
